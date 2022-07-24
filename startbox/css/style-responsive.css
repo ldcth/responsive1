@@ -1,0 +1,156 @@
+@media (max-width: 1023px) {
+  .container {
+    max-width: 80%;
+  }
+  .navbar-toggle {
+    /* display: inherit; */
+    display: flex;
+    order: 4;
+  }
+  .navbar-toggle.actived {
+    transform: all 1s linear;
+  }
+  .navbar-toggle.actived .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .navbar-toggle.actived .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .navbar-toggle.actived .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .navbar-item {
+    display: none;
+  }
+  .navbar-button {
+    margin-left: auto !important;
+    margin-right: 30px;
+  }
+  /* Main  */
+
+  /* Object 1 Start  */
+  .object1_item {
+    display: none;
+  }
+  .row {
+    margin: 0;
+  }
+  .object1_content {
+    margin: 0;
+    width: 100%;
+  }
+  .object1_content h1 {
+    padding: 0;
+  }
+  .object1_content p {
+    padding: 0;
+  }
+
+  /* Object 2 We Do  */
+  .object2_wedo .container {
+    max-width: 80%;
+  }
+  .object2_item {
+    width: 100%;
+  }
+  /* Object 3 Slide  */
+  .object3_top {
+    margin: 0;
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+  }
+  /* Object 4 Work  */
+  .object4_item {
+    width: 100%;
+  }
+  .object4_item .swiper {
+    margin: 0;
+  }
+  .object4_content {
+    margin: 0;
+  }
+  .object4_item2:first-child {
+    width: 100%;
+  }
+  .object4_item2:last-child {
+    width: 100%;
+  }
+  /* Object 5 Features  */
+  .isotope_item {
+    width: 50%;
+  }
+  .object5_item {
+    width: 50%;
+  }
+  /* Object 6 Action  */
+  /* .object6_adjustment {
+    margin-top: -239px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+  } */
+  .object6_content {
+    margin: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+  .object6_content p {
+    padding: 0;
+  }
+  /* Footer  */
+  .footer {
+    padding-top: 400px;
+  }
+  .footer_brand {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .footer_blank {
+    display: none;
+  }
+  .footer_info {
+    width: 100%;
+  }
+  .footer_info_item {
+    padding: 0;
+  }
+}
+
+@media (max-width: 739px) {
+  .navbar-button {
+    display: none;
+  }
+  .navbar-item {
+    display: none;
+  }
+  .navbar-toggle {
+    /* display: inherit; */
+    display: flex;
+    order: 4;
+  }
+
+  /* Main  */
+
+  /* Object 2 We Do  */
+  .object2_wedo .container {
+    max-width: 95%;
+  }
+  /* Object 5 Features  */
+  .isotope_item {
+    width: 100%;
+  }
+  .object5_item {
+    width: 100%;
+  }
+  /* Footer */
+  .footer {
+    padding-top: 600px;
+  }
+  .footer_info_item {
+    width: 50%;
+  }
+}

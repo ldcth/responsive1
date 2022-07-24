@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: cyan;
+  display: flex;
+  height: 100vh;
+}
+.mobile,
+.tablet,
+.pc {
+  margin: auto;
+  font-size: 100px;
+  color: white;
+  display: none;
+}
+@media screen and (max-width: 739px) {
+    .mobile{
+        display: block;
+    }
+}
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .tablet{
+        display: block;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .pc{
+        display: block;
+    }
+}
